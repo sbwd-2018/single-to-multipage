@@ -31,8 +31,24 @@ h1 {
 }
 
 p {
-  padding-bottom:
   padding-bottom: 1.2222222222em;
+}
+
+/*
+  Module
+*/
+
+nav li {
+  float: left;
+  width: 33.333333333%;
+}
+nav a {
+  padding: 0.6111111111em;
+  background: green;
+  color: white;
+  display: block;
+  text-align: center;
+  text-decoration: none;
 }
 
 /*
@@ -40,5 +56,6 @@ p {
 */
 
 article {
+  clear: both;
   padding: 1.2222222222em 0; /* 22px / 18x = 1.222... */
 }
